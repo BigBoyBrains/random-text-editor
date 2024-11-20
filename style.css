@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Inconsolata:wght@200..900&display=swap');
+
+body{
+    font-family: "Inconsolata", monospace;
+}
+
+body.theme-light {
+    background-color: #f4f4f4;
+    color: #000;
+}
+.theme-light .card {
+    background-color: #fff;
+    border-color: #ddd;
+}
+.theme-light .card-header {
+    background-color: #007bff !important;
+    color: white;
+}
+.theme-light #themeSelect,
+.theme-light #fontSizeSelect {
+    background-color: #fff;
+    color: #000;
+    border-color: #ddd;
+}
+.theme-light .download-btn {
+    background-color: #28a745;
+    color: white;
+}
+.theme-light .download-btn:hover {
+    background-color: #218838;
+}
+.theme-light .download-btn.btn-danger {
+    background-color: #dc3545;
+}
+.theme-light .download-btn.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+body.theme-dark {
+    background-color: #212529;
+    color: #f4f4f4;
+}
+.theme-dark .card {
+    background-color: #343a40;
+    border-color: #495057;
+}
+.theme-dark .card-header {
+    background-color: #6c757d !important;
+    color: white;
+}
+.theme-dark #editor {
+    background-color: #495057;
+    color: #f4f4f4;
+}
+.theme-dark #themeSelect,
+.theme-dark #fontSizeSelect {
+    background-color: #495057;
+    color: #f4f4f4;
+    border-color: #6c757d;
+}
+.theme-dark .download-btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+.theme-dark .download-btn:hover {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.theme-dark .download-btn.btn-danger {
+    background-color: #232527;
+    border-color: #232527;
+}
+.theme-dark .download-btn.btn-danger:hover {
+    border-color: #232527;
+}
+
+body.theme-barbie {
+    background-color: #FFB6C1;
+    color: #8B008B;
+}
+.theme-barbie .card {
+    background-color: #FFC0CB;
+    border-color: #FF69B4;
+}
+.theme-barbie .card-header {
+    background-color: #FF69B4 !important;
+    color: white;
+}
+.theme-barbie #editor {
+    background-color: #FFF0F5;
+    color: #8B008B;
+}
+.theme-barbie #themeSelect,
+.theme-barbie #fontSizeSelect {
+    background-color: #FFC0CB;
+    color: #8B008B;
+    border-color: #FF69B4;
+}
+.theme-barbie .download-btn {
+    background-color: #FF1493;
+    color: white;
+}
+.theme-barbie .download-btn:hover {
+    background-color: #C71585;
+}
+.theme-barbie .download-btn.btn-danger {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+}
+.theme-barbie .download-btn.btn-danger:hover {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+}
+
+#editor {
+    min-height: 300px;
+    resize: vertical;
+}
+
+#quoteContainer {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+.theme-light #quoteContainer {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+.theme-dark #quoteContainer {
+    background-color: #495057;
+    color: #f4f4f4;
+}
+.theme-barbie #quoteContainer {
+    background-color: #FFF0F5;
+    color: #8B008B;
+}

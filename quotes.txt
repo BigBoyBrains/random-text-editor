@@ -1,0 +1,28 @@
+{
+    "quotes": [
+        { 
+            "text": "Hey sexy, write code so clean it makes the compiler blush!" 
+        },
+        { 
+            "text": "Code like your crush is reviewing your pull request." 
+        },
+        { 
+            "text": "You’re a fullstack snack - frontend fabulous, backend badass!" 
+        },
+        { 
+            "text": "The grind is real, and so are your abs (somewhere under there)." 
+        },
+        { 
+            "text": "Sugar, even your pseudocode is more attractive than their product." 
+        },
+        { 
+            "text": "You’re a semicolon: essential, underappreciated, and holding everything together." 
+        },
+        { 
+            "text": "Honey, you are the CSS to life’s HTML." 
+        },
+        { 
+            "text": "You’ve got this - your competition is probably still in bed scrolling reels." 
+        }
+    ]
+}
